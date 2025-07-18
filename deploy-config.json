@@ -1,0 +1,79 @@
+{
+  "site": {
+    "name": "Yahweh Refrigeração",
+    "domain": "yahwehrefrigeracao.com.br",
+    "description": "Assistência técnica especializada em conserto de geladeira, máquina de lavar e ar condicionado",
+    "contact": {
+      "phone": "(21) 98461-9958",
+      "whatsapp": "5521984619958",
+      "email": "contato@yahwehrefrigeracao.com.br"
+    }
+  },
+  "aws": {
+    "region": "us-east-1",
+    "bucket": "yahwehrefrigeracao.com.br",
+    "cloudfront": {
+      "enabled": true,
+      "domain": "d1234567890.cloudfront.net"
+    },
+    "route53": {
+      "enabled": true,
+      "zone": "yahwehrefrigeracao.com.br"
+    }
+  },
+  "files": {
+    "html": ["index.html"],
+    "css": ["css/style.css"],
+    "js": ["js/script.js"],
+          "assets": [
+        "assets/Design-sem-nome.png",
+        "assets/yahweh-refrigeracao-conserto-de-geladeira-logo-branca-e1745528389827.png",
+        "assets/yahweh-refrigeracao-conserto-de-geladeira-banner.png",
+        "assets/yahweh-refrigeracao-conserto-de-geladeira-servicos-1-1024x1024.png",
+        "assets/yahweh-refrigeracao-conserto-de-geladeira-ar-condicionado-e-maquina-de-lavar-em-duque-de-caxias-rj-1024x1024.png",
+        "assets/yahweh-refrigeracao-conserto-de-maquina-de-lavar-1024x1024.png",
+        "assets/yahweh-refrigeracao-conserto-de-geladeira-e-maquina-de-lavar-fale-conosco-1024x1024.png",
+        "assets/yahweh-refrigeracao-conserto-de-geladeira-sobre-nos-1024x1024.png",
+        "assets/juliana-e1745529849863.png",
+        "assets/ricardo-e1745529805961.png",
+        "assets/fernanda-e1745529829317.png",
+        "assets/anndre-e1745529875867.png",
+        "assets/Ptricia-e1745529889121.jpg",
+        "assets/1-3.png",
+        "assets/2-3.png",
+        "assets/3-3.png",
+        "assets/4-3.png",
+        "assets/5-3.png",
+        "assets/7-3.png",
+        "assets/8-3.png",
+        "assets/9-3.png"
+      ]
+  },
+  "seo": {
+    "title": "Yahweh Refrigeração - Conserto de Geladeira, Máquina de Lavar e Ar Condicionado",
+    "description": "Assistência técnica especializada em conserto de geladeira, máquina de lavar e ar condicionado em Duque de Caxias, RJ. Mais de 10 anos de experiência.",
+    "keywords": "conserto geladeira, manutenção geladeira, ar condicionado, máquina de lavar, assistência técnica, Duque de Caxias, RJ",
+    "author": "Yahweh Refrigeração",
+    "robots": "index, follow",
+    "canonical": "https://yahwehrefrigeracao.com.br"
+  },
+  "social": {
+    "facebook": "https://facebook.com/yahwehrefrigeracao",
+    "instagram": "https://instagram.com/yahwehrefrigeracao",
+    "whatsapp": "https://wa.me/5521984619958"
+  },
+  "analytics": {
+    "google_analytics": "G-XXXXXXXXXX",
+    "facebook_pixel": "XXXXXXXXXX"
+  },
+  "performance": {
+    "compression": true,
+    "minification": true,
+    "cache_headers": {
+      "css": "1 year",
+      "js": "1 year",
+      "images": "1 month",
+      "html": "1 hour"
+    }
+  }
+} 
